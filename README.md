@@ -1,94 +1,49 @@
-# imcApp
-Calculadora de IMC
+📱 Calculadora de IMC
 
-Desenvolvido por:
+📝 Desenvolvido por:
 
-Isabela NunesRA: 24026460
+👤 Isabela Nunes🎓 RA: 24026460
 
-Descrição Geral do Projeto
+📌 Descrição Geral do Projeto
 
 Este projeto consiste em um aplicativo Android desenvolvido em Java que permite calcular o Índice de Massa Corporal (IMC) do usuário. Com base no resultado do cálculo, o aplicativo exibe um feedback positivo e personalizado para cada categoria de IMC.
 
-Funcionalidades Principais:
+🚀 Funcionalidades Principais:
 
-Tela principal com logo e botão para acessar a calculadora de IMC.
+✅ Tela principal com logo e botão para acessar a calculadora de IMC.✅ Tela de cálculo com campos de entrada para peso e altura, botões para calcular, limpar e fechar.✅ Navegação entre múltiplas telas (Activities) de feedback.✅ Uso de Intent e Bundle para passagem de dados entre Activities.✅ Layouts responsivos criados com XML, seguindo a paleta de cores definida.
 
-Tela de cálculo com campos de entrada para peso e altura, botões para calcular, limpar e fechar.
+🛠️ Processo de Desenvolvimento
 
-Navegação entre múltiplas telas (Activities) de feedback, exibindo o resultado do IMC com mensagens motivacionais e imagens personalizadas.
+🎨 Decisões Tomadas:
 
-Uso de Intent e Bundle para passagem de dados entre Activities.
+📌 Paleta de Cores:
 
-Layouts responsivos criados com XML, seguindo a paleta de cores definida.
+🟢 Verde Escuro: #006341 (Cabeçalhos e destaques).
 
-Processo de Desenvolvimento
+🟢 Verde Claro: #00A859 (Botões e links).
 
-Decisões Tomadas:
+⚫ Cinza Escuro: #4D4D4D (Textos secundários).
 
-Paleta de Cores: Para garantir um design coeso, utilizei as seguintes cores:
+⚪ Branco: #FFFFFF (Fundo principal).
 
-Verde Escuro (#006341) para cabeçalhos e destaques.
+📌 Estrutura do Aplicativo:📂 Múltiplas Activities para uma navegação intuitiva.📂 Passagem de dados entre Activities via Intent e Bundle.📂 Armazenamento de strings e valores fixos no values.xml.
 
-Verde Claro (#00A859) para botões e links.
+📌 Lógica do Cálculo:📊 Fórmula utilizada: IMC = peso / (altura * altura)📊 Classificação do IMC:
 
-Cinza Escuro (#4D4D4D) para textos secundários.
+🔴 Abaixo do peso: IMC < 18.5
 
-Cinza Claro (#B3B3B3) para bordas e divisores.
+🟢 Peso normal: 18.5 ≤ IMC < 25
 
-Branco (#FFFFFF) para o fundo principal.
+🟠 Sobrepeso: 25 ≤ IMC < 30
 
-Estrutura do Aplicativo:
+🟡 Obesidade grau 1: 30 ≤ IMC < 35
 
-Utiliza múltiplas Activities para uma navegação intuitiva.
+🔴 Obesidade grau 2: 35 ≤ IMC < 40
 
-Passagem de dados entre Activities via Intent e Bundle.
+🚨 Obesidade grau 3: IMC ≥ 40
 
-Armazenei strings e valores fixos no arquivo values.xml para melhor organização.
+⚠️ Desafios Enfrentados:
 
-Lógica do Cálculo:
+1️⃣ Passagem de Dados entre Activities → Resolvido com Intent e Bundle.2️⃣ Manipulação de Imagens → Uso de ImageView com scaleType="fitCenter".3️⃣ Interface do Usuário → Ajuste da paleta de cores e espaçamento.
 
-Utilizei a fórmula: IMC = peso / (altura * altura).
-
-Defini as categorias do IMC conforme padrões internacionais:
-
-Abaixo do peso: IMC < 18.5
-
-Peso normal: 18.5 ≤ IMC < 25
-
-Sobrepeso: 25 ≤ IMC < 30
-
-Obesidade grau 1: 30 ≤ IMC < 35
-
-Obesidade grau 2: 35 ≤ IMC < 40
-
-Obesidade grau 3: IMC ≥ 40
-
-Exibe mensagens motivacionais para cada categoria.
-
-Desafios Enfrentados:
-
-Passagem de Dados entre Activities:
-
-Inicialmente, tive dificuldades ao transferir valores de uma Activity para outra.
-
-Resolvi utilizando Intent e Bundle, garantindo que peso, altura, IMC e categoria fossem corretamente passados.
-
-Manipulação de Imagens:
-
-Ajustar imagens para diferentes tamanhos de tela sem comprometer a qualidade foi um desafio.
-
-Utilizei ImageView com scaleType="fitCenter" para um melhor resultado.
-
-Interface do Usuário:
-
-Ajustar cores e espaçamento para garantir uma boa experiência foi essencial.
-
-Testei diferentes combinações da paleta de cores para manter a harmonia visual.
-
-Melhorias Futuras:
-
-Implementar animações para melhorar a interatividade.
-
-Adicionar um gráfico para visualizar a evolução do IMC ao longo do tempo.
-
-Suporte a diferentes idiomas.
+🔥 Melhorias Futuras:
