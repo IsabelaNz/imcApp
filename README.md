@@ -44,6 +44,6 @@ Este projeto consiste em um aplicativo Android desenvolvido em Java que permite 
 
 ⚠️ Desafios Enfrentados:
 
-1️⃣ Passagem de Dados entre Activities → Resolvido com Intent e Bundle.2️⃣ Manipulação de Imagens → Uso de ImageView com scaleType="fitCenter".3️⃣ Interface do Usuário → Ajuste da paleta de cores e espaçamento.
+1️⃣ Passagem de Dados entre Activities → Resolvido com Intent e Bundle.2️⃣ Manipulação de Imagens → Uso de ImageView. Interface do Usuário → Ajuste da paleta de cores e espaçamento.
 
-🔥 Melhorias Futuras:
+
